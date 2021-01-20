@@ -8,7 +8,7 @@ const Posts = (props) => {
 
   return (
     <div className='posts-container-wrapper'>
-      {posts,map(post => {
+      {posts.map(post => {
         return(
           <Post
             post={post}
